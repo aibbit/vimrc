@@ -9,17 +9,17 @@ set number
 set showcmd
 set wildmenu
 
-set scrolloff = 5
-set clipboard = unnamed           
-set laststatus = 2
-set backspace = indent,eol,start  
-set mouse = a
-set encoding = utf-8
-set t_Co = 256
+set scrolloff=5
+set clipboard=unnamed           
+set laststatus=2
+set backspace=indent,eol,start  
+set mouse=a
+set encoding=utf-8
+set t_Co=256
 
 "缩进
-set tabstop = 4
-set shiftwidth = 4
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set smarttab
 set smartindent
@@ -33,6 +33,7 @@ set incsearch
 set ignorecase
 set smartcase
 
+"快捷键
 let mapleader=' '
 map sl :set splitright<CR>:vsplit<CR>
 map sh :set nosplitright<CR>:vsplit<CR>
